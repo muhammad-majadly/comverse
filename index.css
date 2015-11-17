@@ -1,0 +1,72 @@
+
+
+.nav
+{
+
+}
+
+.block-1
+{
+	background:url(Comverse-ref/source/img/slide-bg-complexity.jpg) no-repeat center center fixed; 
+	
+}
+.higligh
+{
+	margin-left: 180px;
+}
+
+.font
+{
+	color: white;
+}
+
+.block-2
+{
+	background:url(Comverse-ref/source/img/news-and-events-bg.jpg) no-repeat center center fixed; 
+}
+.block-3
+{
+	background:url(Comverse-ref/source/img/news-and-events-bg.jpg) no-repeat center center fixed; 
+}
+.block-4
+{
+	background-color: black
+}
+
+.block-1--content-1
+{
+	background-color:  pink;
+    width: 20%;
+	height: 130px;
+	margin-left: 174px;
+	
+	
+
+
+}
+.block-1--content-2
+{
+	background-color: green;
+	
+	width: 20%;
+	height: 130px;	
+	margin-left: 450px;
+	
+
+	
+}
+.block-1--content-3
+{
+	background-color: orange;
+	width: 20%;
+	height: 130px;
+	margin-left: 850px;
+}
+
+.floating-box {
+    float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
