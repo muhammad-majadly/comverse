@@ -1,8 +1,42 @@
-
-
+.nav-logo
+{
+	background: #FCFCFC;
+}
+.logo
+{
+	
+	margin-left: 240px;
+}
 .nav
 {
+	    
+	    margin-left: 300px;
 
+	    
+
+}
+.nav--list
+{
+	display: inline-block;
+	background-color: #fff;
+	font-size: 10px;
+	margin-left: 30px;
+
+
+}
+h1{
+    color:#FFF;
+    font-weight:100;
+    font-size:38px;
+    line-height: 1.1em;
+    margin-bottom:0.2em;
+}
+h3{
+    color:#FFF;
+    font-weight:100;
+    font-size:20px;
+    line-height: 1.4em;
+    margin-bottom:0.53em;
 }
 
 .block-1
@@ -12,7 +46,7 @@
 }
 .higligh
 {
-	margin-left: 180px;
+	margin-left: 220px;
 }
 
 .font
@@ -35,10 +69,18 @@
 
 .block-1--content-1
 {
-	background-color:  pink;
-    width: 20%;
-	height: 130px;
-	margin-left: 174px;
+		margin-left: 220px;
+
+
+	background-color:  purple;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px;
+    opacity: 0.8;
+    width: 240px;
+    cursor: pointer;
+    padding: 11px 15px;
+
 	
 	
 
@@ -46,21 +88,30 @@
 }
 .block-1--content-2
 {
-	background-color: green;
-	
-	width: 20%;
-	height: 130px;	
-	margin-left: 450px;
+	background-color:  green;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px;
+    opacity: 0.8;
+    width: 240px;
+    cursor: pointer;
+    padding: 11px 15px;
 	
 
 	
 }
 .block-1--content-3
 {
-	background-color: orange;
-	width: 20%;
-	height: 130px;
-	margin-left: 850px;
+	
+	background-color:  orange;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px;
+    opacity: 0.8;
+    width: 240px;
+    cursor: pointer;
+    padding: 11px 15px;
+	
 }
 
 .floating-box {
