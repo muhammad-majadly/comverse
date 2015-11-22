@@ -1,26 +1,48 @@
-.nav-logo
+a
 {
-	background: #FCFCFC;
+    text-decoration: none;
+}
+
+.header
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	height: 50px;
+}
+.header ul
+{
+	list-style-type: none;
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+}
+.header--li
+{
+	float :left;
+	font-size: 11px;
 }
 .logo
 {
-	
-	margin-left: 240px;
+			margin-left: 18%;
+
 }
 .nav
 {
-	    
-	    margin-left: 300px;
+	margin-right: 50px;    	 
 
-	    
+}
+.search
+{
+		margin-top: 20px;
 
 }
 .nav--list
 {
 	display: inline-block;
 	background-color: #fff;
-	font-size: 10px;
-	margin-left: 30px;
+	margin-left: 20px;
 
 
 }
@@ -39,16 +61,38 @@ h3{
     margin-bottom:0.53em;
 }
 
+.wrapper
+{
+}
+
 .block-1
 {
 	background:url(Comverse-ref/source/img/slide-bg-complexity.jpg) no-repeat center center fixed; 
+	height: 400px;
+	padding-top: 50px;
+	border-style: hidden;
 	
 }
+
 .higligh
 {
-	margin-left: 220px;
+	margin-left: 20%;
+}
+.list
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
+.list ul
+{
+	width: 80%;
+	margin-left: 20%;
+	padding: 0px;
+	height: 200px;
+}
 .font
 {
 	color: white;
@@ -56,62 +100,56 @@ h3{
 
 .block-2
 {
-	background:url(Comverse-ref/source/img/news-and-events-bg.jpg) no-repeat center center fixed; 
+	background-color: #3366FF;
+	height: 300px;
+	padding-top: 15px;
+
+}
+.title
+{
+	margin-left: 33%;
 }
 .block-3
 {
 	background:url(Comverse-ref/source/img/news-and-events-bg.jpg) no-repeat center center fixed; 
+	height: 400px;
+
 }
 .block-4
 {
 	background-color: black
 }
 
-.block-1--content-1
+.block-1--content
 {
-		margin-left: 220px;
-
-
-	background-color:  purple;
+	float:left;
     border-radius: 8px;
     display: inline-block;
-    margin-right: 20px;
     opacity: 0.8;
-    width: 240px;
+    height: 120px;
+    width: 25%;
     cursor: pointer;
     padding: 11px 15px;
 
 	
-	
 
 
 }
-.block-1--content-2
+.purpleBack
+{
+	background-color:  purple;
+
+}
+.greenBack
 {
 	background-color:  green;
-    border-radius: 8px;
-    display: inline-block;
-    margin-right: 20px;
-    opacity: 0.8;
-    width: 240px;
-    cursor: pointer;
-    padding: 11px 15px;
-	
-
-	
+	margin-left: 30px;
 }
-.block-1--content-3
+.orangeBack
 {
-	
 	background-color:  orange;
-    border-radius: 8px;
-    display: inline-block;
-    margin-right: 20px;
-    opacity: 0.8;
-    width: 240px;
-    cursor: pointer;
-    padding: 11px 15px;
-	
+	margin-left: 30px;
+
 }
 
 .floating-box {
