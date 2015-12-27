@@ -5,52 +5,52 @@ a
 
 .header
 {
-	width: 100%; 
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 10px;
-	height: 50px;
+	
+	padding-bottom: 40px;
+	height: 30px;
+	margin-left: 240px;
+	width: 950px;
+
+
 }
 .header ul
 {
 	list-style-type: none;
-	margin-top: 20px;
-	width: 100%;
-	height: 100%;
+	
 }
+	
 .header--li
 {
-	float :left;
+	display:inline-block;
 	font-size: 11px;
 }
 .logo
 {
-			margin-left: 18%;
 
 }
 .nav
 {
-	margin-right: 50px;    	 
 
 }
 .search
 {
-		margin-top: 20px;
+	margin-top: 20px;
+	margin-left: 50px;
 
 }
 .nav--list
 {
-	display: inline-block;
-	background-color: #fff;
-	margin-left: 20px;
-
+	
+	display:inline-block;
+	padding-left:15px;
+	padding-right:15px;
+	background: url(Comverse-ref/source/img/divider.png) right center no-repeat  ;
 
 }
 h1{
     color:#FFF;
     font-weight:100;
-    font-size:38px;
-    line-height: 1.1em;
+    font-size:32px;
     margin-bottom:0.2em;
 }
 h3{
@@ -58,120 +58,149 @@ h3{
     font-weight:100;
     font-size:20px;
     line-height: 1.4em;
+    margin-bottom:0.8em;
+}
+h4{
+	color: #585951;
+    font-weight:100;
+    font-size:12px;
+    line-height: 1.4em;
     margin-bottom:0.53em;
 }
 
 .wrapper
 {
+	 	width: 1250px;
 }
+
 
 .block-1
 {
 	background:url(Comverse-ref/source/img/slide-bg-complexity.jpg) no-repeat center center fixed; 
-	height: 400px;
-	padding-top: 15px;
+	background-size: cover;
+	box-shadow: 0 1px 10px 0 black;
 	border-style: hidden;
-	
+	padding-top: 5px;
+
+
+
 }
 
 .higligh
 {
-	margin-left: 20%;
+	margin-left: 280px;
+	width: 500px;
+    height: 280px;
 }
-.list
-{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	
+
+.list{
+	    height: 200px;
 }
 
 .list ul
 {
-	width: 80%;
-	margin-left: 20%;
+	margin-left: 280px;
 	padding: 0px;
-	height: 200px;
 }
-.font
+
+
+.block-1--content
 {
-	color: white;
+	display:inline-block;
+    border-radius: 8px;
+    opacity: 0.8;
+    width: 230px;
+    height: 160px;
+    padding: 11px 15px;
+
+
+}
+
+.purpleBack
+{
+	background-color: rgba(251, 66, 158, 0.9);
+
+}
+.greenBack
+{
+	background-color: rgba(106, 192, 50, 0.9);
+	margin-left: 30px;
+}
+.orangeBack
+{
+	background-color: rgba(255, 117, 24, 0.9);
+	margin-left: 30px;
+
+}
+.blue-button
+{
+    background: url(Comverse-ref/source/img/btnArrow.png) right 15px center no-repeat, linear-gradient(to top, #1188C4, #1D8EC6, #2B94C9); 
+
+
+    border-radius: 8px;
+   	height: 36px;
+	width: 180px;
+    padding: 11px 15px;
+    color: white;
+
 }
 
 .block-2
 {
 	background:linear-gradient(90deg, rgb(49, 139, 173), rgb(86, 183, 214), rgb(49, 139, 173));
-	height: 300px;
+	background-size: cover;
+	box-shadow: 0 1px 10px 0 black;
 	padding-top: 15px;
+	padding-bottom: 30px;
 
 }
 .title
 {
-	margin-left: 27%;
+	margin-left: 280px;
 }
+.smart-list{
+			margin-left: 180px;
+
+}
+.smart-list-it{
+		display:inline-block;
+		margin-left: 60px;
+
+}
+.block2-button
+{
+		margin-left: 380px;
+}
+
 .block-3
 {
 	background:url(Comverse-ref/source/img/news-and-events-bg.jpg) no-repeat center center fixed;
-	background-size: 100% 100%; 
-	height: 300px;
+	background-size: cover;
+	box-shadow: 0 1px 10px 0 black;
 	padding-top: 15px;
 
 }
 .WHAC
 {
-		margin-left: 10%;
+		margin-left: 100px;
 
 }
 .block-4
 {
 	background-color: rgb(236, 236, 236);
-	height: 400px;
+	background-size: cover;
 	padding-top: 15px;
 
 }
 .succ
 {
 	color:grey;
-	margin-left: 15%;
+	margin-left: 100px;
 
 }
 
-.block-1--content
-{
-	float:left;
-    border-radius: 8px;
-    display: inline-block;
-    opacity: 0.8;
-    height: 120px;
-    width: 25%;
-    cursor: pointer;
-    padding: 11px 15px;
 
-	
+.mm{
+		display:inline-block;
 
-
-}
-.purpleBack
-{
-	background-color:  purple;
-
-}
-.greenBack
-{
-	background-color:  green;
-	margin-left: 30px;
-}
-.orangeBack
-{
-	background-color:  orange;
-	margin-left: 30px;
-
-}
-
-.floating-box {
-    float: left;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-    border: 3px solid #73AD21;  
 }
