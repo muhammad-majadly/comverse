@@ -213,32 +213,47 @@ h4{
 	padding-bottom: 30px;
 
 }
-.title
+
+.title-b2
 {
-	margin-left: 120px;
+	margin-left: 185px;
+	margin-bottom: 30px;
+
+
+}
+.title-b3
+{
+	margin-left: 155px;
 	margin-bottom: 30px;
 }
+.title-b4
+{
+	margin-left: 190px;
+	margin-bottom: 30px;
+}
+
 .smart-list{
 
 }
 .smart-list-it{
 		display:inline-block;
+
 }
 
 
 .img {
 	display: inline-block;
-    margin-left: 12px;
+	margin-left: 10px;
+	height: 100px;
+
 
 }
+
 .g {
     margin-left: 25px;
 
 }
-.money-button
-{
-	    margin-left: 25px;
-}		
+	
 
 
 .money-pic1:hover{
@@ -268,17 +283,19 @@ h4{
 
 .desc {
     text-align: center;
+
 }
 .desc a
 {
 	 color:#FFFFFF;
-	 font-size:15px;
+	 font-size:14px;
 }
 
 
 .block2-button
 {
 	margin-left: 320px;
+	margin-top: 30px;
 }
 
 .block-3
@@ -293,11 +310,13 @@ h4{
 	  height: 250px;
 
 }
-.ss{
+
+.dateBox{
 	display: inline-block;
 	margin-left: 0px;
 	margin-right: 0px;
 }
+
 .secend-list
 {
 	margin-left: 14px;
@@ -330,6 +349,11 @@ h4{
 	border-radius: 1px;
 	margin-right: 10px;
 	box-shadow: 0 1px 4px 0 grey;
+}
+.block-3--content:hover{
+	background: rgba(221, 211, 203, 1);
+	cursor: pointer;
+
 }
 
 .day {
