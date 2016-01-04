@@ -12,14 +12,9 @@ body {
 	
 	padding-bottom: 40px;
 	height: 30px;
-	margin-left: 240px;
-	width: 940px;
-
-
-
 
 }
-.header ul
+ul
 {
 	list-style-type: none;
 	
@@ -32,12 +27,8 @@ body {
 }
 .logo
 {
-
 }
-.nav
-{
 
-}
 .search
 {
 	padding:6px 15px 6px 30px;
@@ -45,9 +36,7 @@ body {
 	height:8px;
 	margin:3px; 
 	background: url(Comverse-ref/source/img/searchBtn.png) no-repeat right ; 	
-	border-radius:8px; 
-
-	
+	border-radius:8px; 	
 	margin-top: 20px;
 
 }
@@ -238,15 +227,43 @@ h4{
 
 
 .img {
-    float: left;
-    width: 150px;
-    margin-bottom: 30px;
+	display: inline-block;
+    margin-left: 12px;
 
-}	
+}
+.g {
+    margin-left: 25px;
 
-.img img {
-    width: 79%;
-    height: auto;
+}
+.money-button
+{
+	    margin-left: 25px;
+}		
+
+
+.money-pic1:hover{
+	 content:url('Comverse-ref/source/img/data-monetization-hover.png');
+	  	opacity: 1;
+}
+.money-pic2:hover{
+	 content:url('Comverse-ref/source/img/robot-icon-hover.png');
+	  	opacity: 1;
+}
+.money-pic3:hover{
+	 content:url('Comverse-ref/source/img/flag-icon-hover.png');
+	  	opacity: 1;
+}
+.money-pic4:hover{
+	 content:url('Comverse-ref/source/img/cloud-icon-hover.png');
+	  	opacity: 1;
+}
+.money-pic5:hover{
+	 content:url('Comverse-ref/source/img/managed-services-hover.png');
+	  	opacity: 1;
+}
+.money-pic6:hover{
+	 content:url('Comverse-ref/source/img/social-icon-hover.png');
+	  	opacity: 1;
 }
 
 .desc {
@@ -257,9 +274,6 @@ h4{
 	 color:#FFFFFF;
 	 font-size:15px;
 }
-
-
-
 
 
 .block2-button
@@ -389,6 +403,7 @@ h4{
 .succ-item
 {
 	display: inline-block;
+
 }
 
 .pic1
@@ -413,6 +428,7 @@ h4{
 }
 .succ-b1
 {
+
 	height:160px;
 	width: 310px;
 	background-color: white;
@@ -423,6 +439,7 @@ h4{
 
 .succ2-b1
 {
+			
 	height:142px;
 	width: 200px;
 	background-color: white;
@@ -453,11 +470,35 @@ h4{
 
 .succ-b2{
 	display: inline-block;
+
 }
 
 
+
+.block-5
+{
+
+	background-color: black;
+	background-size: cover;
+	padding-top: 15px;
+	height: 300px;
+
+}
+.block5-div{
+		display: inline-block;
+		margin-left: 20px;
+
+}
+
+.block5-div 
+{
+	color:#FFFFFF;
+	font-size:13px;
+
+}
 
 .mm{
 		display:inline-block;
 
 }
+
