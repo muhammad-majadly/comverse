@@ -233,50 +233,47 @@ h4{
 }
 
 .smart-list{
+		display:inline-block;	
+}
 
-}
-.smart-list-it{
-		display:inline-block;
-		
-}
 
 
 .img {
-	display: inline-block;
-	margin-left: 10px;
+	display:inline-block;
+	margin-left: 5px;
 
 
 }
 
 .g {
-    margin-left: 25px;
+    margin-left: 5px;
 
 }
 	
 
 
 .money-pic1:hover{
-	 content:url('Comverse-ref/source/img/data-monetization-hover.png');
+	 content:url('Comverse-ref/source/img/solution_icon_smart-money_hover.png');
 	  	opacity: 1;
 }
 .money-pic2:hover{
-	 content:url('Comverse-ref/source/img/robot-icon-hover.png');
+	 content:url('Comverse-ref/source/img/solution_icon_diti-cx_hover.png');
 	  	opacity: 1;
 }
 .money-pic3:hover{
-	 content:url('Comverse-ref/source/img/flag-icon-hover.png');
+	 content:url('Comverse-ref/source/img/solution_icon_optimize-efficnt_hover.png');
 	  	opacity: 1;
 }
 .money-pic4:hover{
-	 content:url('Comverse-ref/source/img/cloud-icon-hover.png');
+	 content:url('Comverse-ref/source/img/solution_icon_biz-analitics_hover.png');
 	  	opacity: 1;
 }
 .money-pic5:hover{
-	 content:url('Comverse-ref/source/img/managed-services-hover.png');
+	 content:url('Comverse-ref/source/img/solution_icon_biz-transform_hover.png');
 	  	opacity: 1;
 }
 .money-pic6:hover{
-	 content:url('Comverse-ref/source/img/social-icon-hover.png');
+	 content:url('Comverse-ref/source/img/solution_icon_personal_hover.png');
 	  	opacity: 1;
 }
 
