@@ -81,7 +81,7 @@ h4{
 
 .block-1
 {
-	background:url(Comverse-ref/source/img/slide-bg-complexity.jpg) no-repeat ; 
+	background:url(Comverse-ref/source/img/slide-bg-complexity.jpg) no-repeat center center fixed ; 
 	background-size: cover;
 	box-shadow: 0 1px 10px 0 black;
 	border-style: hidden;
@@ -420,10 +420,22 @@ h4{
 .succ-list
 {
 }
-.succ-item
+.succ-item1
 {
 	display: inline-block;
+	margin-left: 38px;
 
+}
+.succ-item2{
+	position: absolute;
+	display: inline-block;
+	margin-left: 10px;
+
+}
+.succ-item3{
+	position: absolute;
+	display: inline-block;
+	margin-left: 300px;
 }
 
 .pic1
@@ -431,14 +443,21 @@ h4{
 		border-radius: 4px;
 		margin-left: 1px;
 		margin-right: 0px;
+		width: 90px
 
 }
+
 .pic-person
 {
 	float: left;
 	padding-right: 5px;
 	height: 103px;
 	width: 95px;
+}
+.ll
+{
+	width: 90px;
+	float: right;
 }
 .pic3
 {
@@ -450,18 +469,21 @@ h4{
 {
 
 	height:160px;
-	width: 310px;
+	width: 261px;
 	background-color: white;
 	padding:15px 5px 15px 15px;
 	margin-bottom:10px; 
 	border-radius: 4px;
 }
 
+
+
+
 .succ2-b1
 {
 			
-	height:142px;
-	width: 200px;
+	height:160px;
+	width: 165px;
 	background-color: white;
 	padding:15px 5px 15px 15px;
 	margin-bottom:10px; 
