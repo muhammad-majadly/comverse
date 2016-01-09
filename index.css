@@ -554,27 +554,36 @@ h4{
 .block-5
 {
 
-	background-color: black;
+	background-color: #2B2B2B;
 	background-size: cover;
 	padding-top: 15px;
 	height: 300px;
 
 }
 .block5-div{
-		display: inline-block;
-		margin-left: 20px;
+		
+	display: inline-block;
+	margin-left: 20px;
+	color:#FFFFFF;
+	font-size:13px;
+	margin-top: -14px;
 
 }
 
-.block5-div 
+.block5-div > p
 {
-	color:#FFFFFF;
-	font-size:13px;
-
+font-size:16px;
+margin-left: 37px;
 }
 
 .mm{
 		display:inline-block;
 
+}
+.footBox{
+	background-color: #3d3d3d;
+	height: 245px;
+	width: 250px;
+	padding-top: 69px;
 }
 
