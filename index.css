@@ -562,17 +562,18 @@ h4{
 }
 .block5-div{
 		
-	display: inline-block;
+	float: left;
 	margin-left: 20px;
 	color:#FFFFFF;
 	font-size:13px;
 	margin-top: -14px;
+	line-height:21px;
 
 }
 
 .block5-div > p
 {
-font-size:16px;
+font-size:17px;
 margin-left: 37px;
 }
 
@@ -582,8 +583,63 @@ margin-left: 37px;
 }
 .footBox{
 	background-color: #3d3d3d;
-	height: 245px;
+	height: 285px;
 	width: 250px;
-	padding-top: 69px;
+	padding-right: 7px;
+	padding-left: 7px;
 }
 
+.footUP	 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+
+}
+.footUP p {
+    color: rgb(51, 153, 204);
+    font-size: 19px;
+     margin-left: 20px;
+
+}
+.footDown p{
+    color: rgb(51, 153, 204);
+    font-size: 19px;
+}
+.boxText{
+    font-size: 16px;
+}
+.footDate{
+	background: none;
+	border-radius: 0px;
+	margin-right: 0px;
+	box-shadow: none;
+	height: 45px;
+	margin-top: 12px
+}
+
+.day {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	height:60px;
+	border-bottom: 1px dotted;
+	color:white;
+}
+
+.month {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 4px;
+	font-size: 1.2em;
+	color:white;
+}
+
+.footDay{
+
+	height:20px;
+	font-size: 3em;
+	border-bottom:none;
+}
+.footMonth{
+	font-size: 1em;
+	
+}
