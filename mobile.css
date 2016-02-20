@@ -3,9 +3,14 @@
 h1{
     margin-top: 5px;
 }
+body{
+	    
+
+}
 .wrapper-in
 {
 	width: 100%;
+	overflow: hidden;
 	
 }
 .header
@@ -23,7 +28,7 @@ h1{
 	font-size: 0.8em;
 	background: url(Comverse-ref/source/img/slide-bg-complexity.jpg) no-repeat center center;
 	background-size: cover;
-	
+
 	
 }
 
@@ -106,5 +111,70 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 }
 
 
+.block-3
+{
+	width: 100%;
+
+}
+.block3-list{
+	margin-left: 30px;
+}
+
+.dateBox{
+	display: list-item;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	margin-top: 23px;
+}
+
+.secend-list
+{
+	margin-left: 0px;
+}
+
+.block-3--content
+{
+	    width: 67%;
+}
+
+.title-b3 {
+    margin-left: 26px;
+    margin-bottom: 36px;
+}
+
+
+
+.succ-item3
+{
+	display: none;
+
+}
+
+.succ-item1
+{
+	display: list-item;
+	list-style-type: none;
+	margin-left: 134px;
+
+}
+.succ-item2{
+	
+	display: list-item;
+	list-style-type: none;
+	margin-left: 150px;
+
+}
+
+.succ2-b1
+{
+
+	
+	background-color: grey;
+	
+}
+.block-5
+{
+	display: none;
+}
 
 }
