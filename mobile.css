@@ -140,6 +140,11 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 	width: 24%;
 	}
 
+.desc a {
+    
+    font-size: 9px;
+}
+
 .title-b3 {
     margin-left: 26px;
     margin-bottom: 36px;
