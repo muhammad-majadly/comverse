@@ -147,6 +147,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 .succ-item3
 {
 	display: none;
+	background-color: grey;
 
 }
 
@@ -154,14 +155,14 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 {
 	display: list-item;
 	list-style-type: none;
-	margin-left: 134px;
+	margin-left: 64px;
 
 }
 .succ-item2{
 	
 	display: list-item;
 	list-style-type: none;
-	margin-left: 150px;
+	margin-left: 80px;
 
 }
 
