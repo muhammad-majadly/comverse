@@ -1,6 +1,8 @@
 @media (max-width: 767px) {
 
-
+h1{
+    margin-top: 5px;
+}
 .wrapper-in
 {
 	width: 100%;
@@ -30,13 +32,14 @@
 	background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(22, 96, 148, 0.9);;
 	opacity: 0.7;
 	width: 100%;
-	margin-top: -32px;
-	padding-top: 20px 
+	margin-top: -5px;
+	padding-top: 12px 
 
 }
 
 .blue-button {
-    background: url(Comverse-ref/source/img/btnArrow.png) right 15px center no-repeat, rgba(22, 96, 148, 0.9);;
+    background: url(Comverse-ref/source/img/btnArrow.png) right 15px center no-repeat, rgba(22, 96, 148, 0.9);
+    margin-top: 45px;
 }
 .list-box {
     display: none;
@@ -44,13 +47,19 @@
 .slides{
 		width: 100%;
 }
+.list{
+background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0.9);
+}
+.slides{
+		margin-top: 210px; 
 
+}
 .block-1--content
 {
 		background-color: rgba(238, 238, 238, 0.3);
 		width: 100%;
 		border-radius: 0;
-		margin: 10px 0 0 0;
+		margin: 5px 0 0 0;
 
 
 }
@@ -80,9 +89,21 @@
 
 .block-2
 {
+	margin-top: -15px;
 	width: 100%;
 }
-
+.title-b2
+{
+	margin-left: 100px;
+}
+.smart-list
+{
+	margin-left: 80px;
+}
+.block2-button
+{
+	display: none;
+}
 
 
 
