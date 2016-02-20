@@ -5,7 +5,7 @@ a
 
 body {
 	margin: 0;
-}
+	}
 
 .header
 {
@@ -87,8 +87,6 @@ h4{
 	border-style: hidden;
 	padding-top: 5px;
 
-
-
 }
 
 .higligh
@@ -138,7 +136,7 @@ h4{
  }
 
 .list{
-	   height: 200px;
+	padding-bottom: 10px;   
 }
 
 .list ul
@@ -185,8 +183,6 @@ h4{
 	margin-left: 30px;
 
 }
-
-
 
 
 
