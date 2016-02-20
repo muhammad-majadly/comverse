@@ -142,8 +142,16 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
     margin-bottom: 36px;
 }
 
+.block-4
+{
+	width: 100%;
+}
 
-
+.title-b4
+{
+	margin-left: 75px;
+	margin-bottom: 30px;
+}
 .succ-item3
 {
 	display: none;
@@ -153,14 +161,23 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 
 .succ-item1
 {
+	width: 100%;
 	display: list-item;
 	list-style-type: none;
 	margin-left: 64px;
 
 }
+
+.succ-b1 {
+    
+    width: 68%;
+}
+.pic1 {
+	width: 23%;
+}
 .succ-item2{
+	display: none;
 	
-	display: list-item;
 	list-style-type: none;
 	margin-left: 80px;
 
