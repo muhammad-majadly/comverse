@@ -15,6 +15,15 @@ body {
 	height: 30px;
 
 }
+.mobile-menu
+{
+	display:none ;
+}
+
+#mobile-menu-icon,#mobile-menu
+{
+	display: none;	
+}
 ul
 {
 	list-style-type: none;
@@ -240,52 +249,105 @@ h4{
 
 .img {
 	display:inline-block;
-	margin-left: 5px;
-
-
+	margin: 0 auto; 
+  	text-align: center;
+  	vertical-align: middle;
+  	width: 143px;
 }
 
-.g {
-    margin-left: 5px;
 
-}
-	
-
-
-.money-pic1:hover{
-	 content:url('Comverse-ref/source/img/solution_icon_smart-money_hover.png');
-	  	opacity: 1;
-}
-.money-pic2:hover{
-	 content:url('Comverse-ref/source/img/solution_icon_diti-cx_hover.png');
-	  	opacity: 1;
-}
-.money-pic3:hover{
-	 content:url('Comverse-ref/source/img/solution_icon_optimize-efficnt_hover.png');
-	  	opacity: 1;
-}
-.money-pic4:hover{
-	 content:url('Comverse-ref/source/img/solution_icon_biz-analitics_hover.png');
-	  	opacity: 1;
-}
-.money-pic5:hover{
-	 content:url('Comverse-ref/source/img/solution_icon_biz-transform_hover.png');
-	  	opacity: 1;
-}
-.money-pic6:hover{
-	 content:url('Comverse-ref/source/img/solution_icon_personal_hover.png');
-	  	opacity: 1;
-}
-
-.desc {
-    text-align: center;
-
-}
-.desc a
+.smart-list >a
 {
 	 color:#FFFFFF;
-	 font-size:14px;
+	 font-size:13px;
+
 }
+
+.texthover{
+	width: 130px;
+	margin-left: 15px;
+	margin-top: 9px;
+}
+
+
+.img1>div{
+  height: 60px;
+  
+  background: url(Comverse-ref/source/img/solution_icon_smart-money.png) no-repeat center center;
+}
+.img1:hover div{
+  height: 60px;
+  
+  background: url(Comverse-ref/source/img/solution_icon_smart-money_hover.png) no-repeat center center;
+}
+.img2>div{
+  height: 60px;
+  background: url(Comverse-ref/source/img/solution_icon_biz-analitics.png) no-repeat center center;
+}
+.img2:hover div{
+  height: 60px;
+  background: url(Comverse-ref/source/img/solution_icon_biz-analitics_hover.png) no-repeat center center;
+}
+.img3>div{
+  height: 60px;
+  margin-left:10px; 
+  margin-bottom: 18px;
+  width: 152px;
+  background: url(Comverse-ref/source/img/solution_icon_optimize-efficnt.png) no-repeat center center;
+ 
+}
+.img3:hover div{
+  height: 60px;
+  margin-left:10px; 
+  margin-bottom: 18px;
+  width: 152px;
+  background: url(Comverse-ref/source/img/solution_icon_optimize-efficnt_hover.png) no-repeat center center;
+   
+}
+.img4>div{
+  height: 60px;
+  background: url(Comverse-ref/source/img/solution_icon_biz-transform.png) no-repeat center center;
+}
+.img4:hover div{
+  height: 60px;
+  background: url(Comverse-ref/source/img/solution_icon_biz-transform_hover.png) no-repeat center center;
+}
+.img5>div{
+
+  height: 60px;
+  background: url(Comverse-ref/source/img/solution_icon_personal.png) no-repeat center center;
+}
+.img5:hover div{
+  height: 60px;
+  background: url(Comverse-ref/source/img/solution_icon_personal_hover.png) no-repeat center center;
+}
+.img6>div{
+  height: 60px;
+  background: url(Comverse-ref/source/img/solution_icon_diti-cx.png) no-repeat center center;
+}
+.img6:hover div{
+  height: 60px;
+  background: url(Comverse-ref/source/img/solution_icon_diti-cx_hover.png) no-repeat center center;
+}
+.img1:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+.img2:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+ .img3:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+ .img4:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+ .img5:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+ .img6:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+
 
 
 .block2-button
@@ -303,7 +365,7 @@ h4{
 
 }
 .block3-list{
-
+	    padding-bottom: 2px;
 }
 
 .dateBox{
