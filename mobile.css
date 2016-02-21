@@ -112,14 +112,17 @@ body{
 	opacity: 0.7;
 	width: 100%;
 	margin-top: -5px;
-    padding-top: 0;
     padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 
 }
 
 .blue-button {
     background: url(Comverse-ref/source/img/btnArrow.png) right 15px center no-repeat, rgba(22, 96, 148, 0.9);
-    margin-top: 45px;
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 30%;
 }
 .list-box {
     display: none;
@@ -131,7 +134,7 @@ body{
 background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0.9);
 }
 .slides{
-		margin-top: 210px; 
+		margin-top: 150px; 
 
 }
 .block-1--content
@@ -140,6 +143,9 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 		width: 100%;
 		border-radius: 0;
 		margin: 5px 0 0 0;
+		padding-top: 10px;
+		padding-bottom: 30px;
+
 
 
 }
@@ -153,6 +159,8 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 .purpleBack
 {
 	background-color: rgba(251, 66, 158, 0.9);
+	padding-top: 24px;
+	padding-bottom: 44px;
 
 }
 .greenBack
@@ -164,6 +172,8 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 {
 	background-color: rgba(255, 117, 24, 0.9);
 	margin-left: 0;
+	padding-top: 24px;
+	padding-bottom: 44px;
 
 }
 
