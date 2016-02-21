@@ -34,6 +34,12 @@ ul
 	display:inline-block;
 	font-size: 11px;
 }
+
+.mobile-logo
+{
+	display: none;
+	margin-left: 50%;
+}
 .logo
 {
 }
