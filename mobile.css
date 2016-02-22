@@ -8,21 +8,12 @@ body{
 
 }
 
-.mobileLogo{
-	display: inline-block;
-
-}
-
 
 .logo
 {
 	display: none;
 }
 
-
-#mobile-menu {
-		display: none;
-	}
 
 	#mobile-menu-icon {
 		cursor: pointer;
@@ -72,6 +63,8 @@ body{
 	}
 
 
+
+
 	#mobile-search-icon {
 		cursor: pointer;
 		background: url(Comverse-ref/source/img/searchBtnMobile.png) no-repeat center, rgb(218, 218, 218);;
@@ -84,6 +77,35 @@ body{
 		margin-right: 5px;
 		margin-top: -36px;
 		position: relative;
+	}
+
+#mobile-search:checked ~ .search-form {
+		display: inline-block;
+		position: absolute;
+		background: white;
+		margin: 0 0 0 -146px;
+		height: 38px;
+		width: 180px;
+	}
+
+	.search-form {
+		display: none;
+	}
+
+	.search {
+		width: 150px;
+		height: 38px;
+	}
+
+	.mobile-menu-items {
+		display: none;
+	}
+
+	.mobile-search:focus + .nav-search {
+		display: block;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
 	}
 
 .wrapper-in
@@ -106,7 +128,7 @@ body{
 .mobile-logo
 {
 	display: block;
-	margin-left: 36%;
+	margin-left: 34%;
 }
 .block-1
 {
@@ -147,7 +169,7 @@ body{
 background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0.9);
 }
 .slides{
-		margin-top: 150px; 
+		margin-top: 200px; 
 
 }
 .block-1--content
@@ -197,7 +219,6 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 }
 .title-b2
 {
-	margin-left: 100px;
 }
 .smart-list
 {
@@ -243,8 +264,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 }
 
 .title-b3 {
-    margin-left: 26px;
-    margin-bottom: 36px;
+ 
 }
 
 .block-4
@@ -254,8 +274,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 
 .title-b4
 {
-	margin-left: 75px;
-	margin-bottom: 30px;
+	
 }
 .succ-item3
 {

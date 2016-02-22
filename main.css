@@ -19,7 +19,7 @@ body {
 	display: none;
 }
 
-#mobile-menu, #mobile-menu-icon {
+#mobile-menu, #mobile-menu-icon,#mobile-search {
 	display: none;
 }
 
@@ -38,7 +38,6 @@ ul
 .mobile-logo
 {
 	display: none;
-	margin-left: 50%;
 }
 .logo
 {
@@ -66,9 +65,8 @@ ul
 }
 h1{
     color:#FFF;
-    font-weight:100;
-    font-size:32px;
-    margin-bottom:0.2em;
+ 	font-size: 2em;
+	font-weight: normal;
 }
 h3{
     color:#FFF;
@@ -228,20 +226,26 @@ h4{
 
 .title-b2
 {
-	margin-left: 185px;
+	margin-left: 0px;
 	margin-bottom: 30px;
+	text-align: center;
+  	vertical-align: middle;
 
 
 }
 .title-b3
 {
-	margin-left: 155px;
+	margin-left: 0px;
 	margin-bottom: 30px;
+	text-align: center;
+  	vertical-align: middle;
 }
 .title-b4
 {
-	margin-left: 190px;
+	margin-right: 80px;
 	margin-bottom: 30px;
+	text-align: center;
+  	vertical-align: middle;
 }
 
 .smart-list{
