@@ -625,10 +625,14 @@ h4{
 	display: none;
 }
 
+#top 
+{
+    display:none;
+}
 .block-5
 {
 
-	background-color: #2B2B2B;
+	background: url(Comverse-ref/source/img/footer-bg.png);
 	background-size: cover;
 	padding-top: 15px;
 	height: 300px;
@@ -656,7 +660,8 @@ margin-left: 37px;
 
 }
 .footBox{
-	background-color: #3d3d3d;
+	background: rgba(220, 210, 201, 0.17);
+    color: white;
 	height: 313px;
 	width: 250px;
 	padding-right: 7px;

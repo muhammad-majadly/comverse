@@ -1,13 +1,22 @@
 @media (max-width: 767px) {
-.page-content{	
-			width:100%;
-		}
-h1{
-    margin-top: 5px;
+
+.page-content
+{	
+	width:100%;
 }
-body{
+
+h1
+{
+	margin-top: 5px;
+}
+body
+{
 	    
 
+}
+ a
+{
+	color:#FFFFFF;
 }
 
 .nav-mobile
@@ -280,7 +289,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 }
 .title-b4
 {
-	
+
 }
 .block4-button
 {
@@ -301,15 +310,19 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 .mobile-block5
 {
 	display: block;
-	background-color: #2B2B2B;
+	background: url(Comverse-ref/source/img/footer-bg.png);
 	background-size: cover;
-
 }
 
- a
+#top 
 {
-	color:#FFFFFF;
+    display: block;
+    float: right;
+    margin-bottom: -1px;
+    margin-right: 15px;
 }
+
+
 .block5-list
 {
 		
@@ -325,4 +338,11 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 		border-bottom: 1px groove black;
 		font-color:#FFFFFF;
 }
+
+.cpoy-right
+{
+	margin-left: 40px;
+	background-color: white;
+}
+
 }
