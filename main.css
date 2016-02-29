@@ -3,6 +3,7 @@ a
     text-decoration: none;
 }
 
+
 body {
 	margin: 0;
 
@@ -15,11 +16,13 @@ body {
 	height: 30px;
 
 }
-.mobile-menu-items {
+.mobile-menu-items 
+{
 	display: none;
 }
 
-#mobile-menu, #mobile-menu-icon,#mobile-search {
+#mobile-menu, #mobile-menu-icon,#mobile-search
+{
 	display: none;
 }
 
@@ -363,6 +366,8 @@ h4{
 	margin-top: 30px;
 }
 
+
+
 .block-3
 {
 	background:url(Comverse-ref/source/img/news-and-events-bg.jpg) no-repeat center center fixed;
@@ -617,7 +622,9 @@ h4{
 
 }
 
-
+.mobile-block4{
+	display: none;
+}
 
 .block-5
 {
@@ -725,4 +732,7 @@ margin-left: 37px;
 	display: inline-block;
 }
 
+.mobile-block5{
+	display: none;
+}
 

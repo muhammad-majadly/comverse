@@ -1,5 +1,7 @@
 @media (max-width: 767px) {
-
+.page-content{	
+			width:100%;
+		}
 h1{
     margin-top: 5px;
 }
@@ -8,14 +10,14 @@ body{
 
 }
 
-
-.logo
+.nav-mobile
 {
-	display: none;
+	text-align: center;
 }
 
 
-	#mobile-menu-icon {
+#mobile-menu-icon 
+{
 		cursor: pointer;
 		display: none;
 		background: url(Comverse-ref/source/img/hamburger-icon.png) no-repeat center,rgb(218, 218, 218);
@@ -28,44 +30,33 @@ body{
 		float: left;
 		margin-left: 5px;
 		position: relative;
-	}
+}
 
-	#mobile-menu:checked ~ .mobile-menu-items {
+#mobile-menu:checked ~ .mobile-menu-items 
+{
 		display: block;
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-	}
+}
 
-	.mobile-menu-items {
-		display: none;
-	}
 
-	.mobile-menu:focus + .mobile-menu-items{
-		display: block;
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	.mobile-nav-item {
+.mobile-nav-item 
+{
 		padding: 15px;
-		border-bottom: 1px solid grey;
-	}
+		border-bottom: 2px solid grey;
+}
 
-	.mobile-nav-item:last-child {
+.mobile-nav-item:last-child
+ {
 		padding: 15px 15px 5px 15px;
 		border-bottom: none;
-	}
+}
 
-	.menu-items {
-		display: none;
-	}
+	
 
-
-
-
-	#mobile-search-icon {
+#mobile-search-icon
+ {
 		cursor: pointer;
 		background: url(Comverse-ref/source/img/searchBtnMobile.png) no-repeat center, rgb(218, 218, 218);;
 		width: 28px;
@@ -77,36 +68,38 @@ body{
 		margin-right: 5px;
 		margin-top: -36px;
 		position: relative;
-	}
+}
 
-#mobile-search:checked ~ .search-form {
+#mobile-search:checked ~ .search-form 
+{
 		display: inline-block;
 		position: absolute;
 		background: white;
 		margin: 0 0 0 -146px;
 		height: 38px;
 		width: 180px;
-	}
+}
 
-	.search-form {
+	
+.search-form 
+{
 		display: none;
-	}
+}
 
-	.search {
+.search 
+{
 		width: 150px;
 		height: 38px;
-	}
+}
 
-	.mobile-menu-items {
-		display: none;
-	}
 
-	.mobile-search:focus + .nav-search {
+.mobile-search:focus + .nav-search 
+{
 		display: block;
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-	}
+}
 
 .wrapper-in
 {
@@ -128,7 +121,6 @@ body{
 .mobile-logo
 {
 	display: block;
-	margin-left: 34%;
 }
 .block-1
 {
@@ -143,13 +135,12 @@ body{
 
 .higligh
 {
-	background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(22, 96, 148, 0.9);;
-	opacity: 0.7;
+	background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(22, 96, 148, 0.9);
 	width: 100%;
 	margin-top: -5px;
     padding-left: 6px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
 
 }
 
@@ -159,6 +150,8 @@ body{
     margin-left: 10px;
     width: 33%;
 }
+
+
 .list-box {
     display: none;
 }
@@ -229,10 +222,15 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 	display: none;
 }
 
-
+.block4-button
+{
+	width:100%;
+	margin-left: 28%;
+}
 .block-3
 {
 	width: 100%;
+
 
 }
 .block3-list{
@@ -255,33 +253,6 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 {
 	    width: 67%;
 }
-.img {
-	}
-
-
-.texthover  {
-    
-}
-
-.title-b3 {
- 
-}
-
-.block-4
-{
-	width: 100%;
-}
-
-.title-b4
-{
-	
-}
-.succ-item3
-{
-	display: none;
-	background-color: grey;
-
-}
 
 .succ-item1
 {
@@ -289,34 +260,61 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 	display: list-item;
 	list-style-type: none;
 	margin-left: 64px;
+	margin-top: 10px;
 
 }
 
-.succ-b1 {
+.succ-b1
+{
     
     width: 68%;
 }
-.pic1 {
+.pic1 
+{
 	width: 23%;
 }
-.succ-item2{
-	display: none;
-	
-	list-style-type: none;
-	margin-left: 80px;
 
+.mobile-block4
+{
+	display: block;
+	background-color: rgb(236, 236, 236);
+	padding-top: 15px;
 }
 
-.succ2-b1
+.block-4
 {
-
-	
-	background-color: grey;
-	
+	display: none;
 }
 .block-5
 {
 	display: none;
 }
 
+.mobile-block5
+{
+	display: block;
+	background-color: #2B2B2B;
+	background-size: cover;
+
+}
+
+ a
+{
+	color:#FFFFFF;
+}
+.block5-list
+{
+		
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+}
+
+
+.block5-list-item
+{
+		padding: 15px;
+		border-bottom: 1px solid grey;
+		font-color:#FFFFFF;
+}
 }
