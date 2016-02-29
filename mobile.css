@@ -260,6 +260,10 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 {
 	    width: 67%;
 }
+.block-3--content a {
+    color: black;
+    font-size: 13px;
+}
 
 .succ-item1
 {
@@ -272,15 +276,23 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 }
 
 .succ-b1
-{
-    
+{ 
     width: 68%;
 }
 .pic1 
 {
 	width: 23%;
 }
-
+.person-details > p > a {
+    color: #50AED0;
+    font-size: 0.8em;
+}
+.person-details > p {
+    font-size: 0.8em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    padding: 0px;
+}
 .mobile-block4
 {
 	display: block;
@@ -334,15 +346,12 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 
 .block5-list-item
 {
-		padding: 15px;
+		padding: 13px;
 		border-bottom: 1px groove black;
 		font-color:#FFFFFF;
 }
 
-.cpoy-right
-{
-	margin-left: 40px;
-	background-color: white;
-}
+
+
 
 }
