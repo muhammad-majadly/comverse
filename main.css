@@ -525,10 +525,10 @@ h4{
 .pic-person
 {
 	float: left;
-	padding-right: 15px;
+	padding-right: 11px;
 	padding-top: 5px;
 	height: 103px;
-	width: 95px;
+	width: 90px;
 }
 .ll
 {
@@ -540,7 +540,6 @@ h4{
     margin-top: 0px;
     padding-top: 18px;
     padding-bottom: 5px;
-    padding-right: 7px;
     border-bottom: 1px solid #DDDDDD;
     line-height: 1.4em;
     margin-bottom: 0.7em;
