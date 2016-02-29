@@ -525,7 +525,7 @@ h4{
 .pic-person
 {
 	float: left;
-	padding-right: 5px;
+	padding-right: 15px;
 	padding-top: 5px;
 	height: 103px;
 	width: 95px;
@@ -543,6 +543,8 @@ h4{
     padding-right: 7px;
     margin-ri: -3px;
     border-bottom: 1px solid #DDDDDD;
+    line-height: 1.5em;
+    margin-bottom: 0.8em;
 
 }
 
