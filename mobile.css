@@ -140,7 +140,7 @@ body{
 	margin-top: -5px;
     padding-left: 6px;
     padding-top: 5px;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
 
 }
 
@@ -149,6 +149,8 @@ body{
     margin-top: 12px;
     margin-left: 10px;
     width: 33%;
+    font-size: 1.3em;
+    min-width: 150px;
 }
 
 
@@ -162,7 +164,7 @@ body{
 background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0.9);
 }
 .slides{
-		margin-top: 200px; 
+		margin-top: 250px; 
 
 }
 .block-1--content
@@ -222,11 +224,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 	display: none;
 }
 
-.block4-button
-{
-	width:100%;
-	margin-left: 28%;
-}
+
 .block-3
 {
 	width: 100%;
@@ -280,7 +278,17 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 	background-color: rgb(236, 236, 236);
 	padding-top: 15px;
 }
+.title-b4
+{
+	
+}
+.block4-button
+{
+	
+	margin-left: 28%;
+	font-size: 0.5em;
 
+}
 .block-4
 {
 	display: none;
@@ -314,7 +322,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 .block5-list-item
 {
 		padding: 15px;
-		border-bottom: 1px solid grey;
+		border-bottom: 1px groove black;
 		font-color:#FFFFFF;
 }
 }
