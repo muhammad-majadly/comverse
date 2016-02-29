@@ -38,7 +38,7 @@ body
 		border: 1px solid grey;
 		float: left;
 		margin-left: 5px;
-		position: relative;
+		position: relative; 
 }
 
 #mobile-menu:checked ~ .mobile-menu-items 
