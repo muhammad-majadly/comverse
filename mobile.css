@@ -407,10 +407,12 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 		background: rgba(221, 211, 203, 0.15);
 		border-radius: 2px;
 		border: none;
-		color: white;
+		background-color: white;
+		opacity: 0.5;
 		margin-left: 20px;
 		padding: 2px;
 }
+
 
 .copyRight
 {
@@ -423,9 +425,9 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 }
 .copyRight > a
 {
-	font-size: 11px;
+	font-size: 10px;
 	color:black;
-	margin-left: 60px;
+	margin-left: 20%;
 }
 
 }

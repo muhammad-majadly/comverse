@@ -7,6 +7,7 @@ a
 body {
 	margin: 0;
 
+
 	}
 
 .header
@@ -70,6 +71,7 @@ h1{
     color:#FFF;
  	font-size: 2em;
 	font-weight: normal;
+	min-width: 368px;
 }
 h3{
     color:#FFF;
@@ -92,9 +94,6 @@ h4{
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 ;
-
-
-
 }
 
 .block-1
@@ -486,7 +485,7 @@ h4{
 {
 	color:grey;
 	height: 300px;
-	margin-left: 100px;
+	margin-left: 13%;
 
 
 }
