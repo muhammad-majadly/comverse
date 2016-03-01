@@ -14,10 +14,7 @@ body
 	    
 
 }
- a
-{
-	color:#FFFFFF;
-}
+
 
 .nav-mobile
 {
@@ -260,6 +257,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 .block-3--content
 {
 	    width: 67%;
+	    padding: 14px 18px;
 }
 .block-3--content a {
     color: black;
@@ -283,6 +281,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 .pic1 
 {
 	width: 23%;
+	margin-right: 2px;
 }
 .person-details > p > a {
     color: #50AED0;
@@ -293,6 +292,12 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     padding: 0px;
+}
+
+.ll
+{
+    font-size: 14px;
+    line-height: 1.4em;
 }
 .mobile-block4
 {
@@ -327,6 +332,16 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 	background-size: cover;
 }
 
+.SM-logo > a
+{
+	color:white;
+}
+
+.block5-list-item > a
+{
+	color:white;
+}
+
 #top 
 {
     display: block;
@@ -352,7 +367,65 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 		font-color:#FFFFFF;
 }
 
+.SMList
+{
+ 	padding-left: 0px;
+ 	padding-top: 0px;
+ }  
+.smLogo1
+{
+	margin-left: 40px;
+}
+
+.smLogo1:hover
+{
+	margin-left: 40px;
+}
+
+.smLogo2
+{
+	margin-left: 22px;
+}
+
+.smLogo2:hover
+{
+	margin-left: 22px;
+}
+
+.smLogo3
+{
+	margin-left: 22px;
+}
+
+.smLogo3:hover
+{
+	margin-left: 22px;
+}
 
 
+.footer-language {
+		background: rgba(221, 211, 203, 0.15);
+		border-radius: 2px;
+		border: none;
+		color: white;
+		margin-left: 20px;
+		padding: 2px;
+}
+
+.copyRight
+{
+	padding-top: 0px;
+	background-color: white;
+	color:red;
+	width: 100%;
+
+
+}
+.copyRight > a
+{
+	font-size: 11px;
+	color:black;
+	margin-left: 60px;
+}
 
 }
