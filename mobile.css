@@ -219,15 +219,21 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 	margin-top: -15px;
 	width: 100%;
 }
-.title-b2
+.img
 {
+	width: 107px;
+	margin-left: 5px;
 }
 .smart-list
 {
 	margin-left: -22px;
     min-width: 436px;
     margin-bottom: 8px;
-    
+}
+
+.smart-list > a
+{
+	font-size: 12px;
 }
 .block2-button
 {
