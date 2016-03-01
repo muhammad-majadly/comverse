@@ -224,7 +224,9 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 }
 .smart-list
 {
-	margin-left: 80px;
+	margin-left: -22px;
+    min-width: 436px;
+    margin-bottom: 8px;
 }
 .block2-button
 {
