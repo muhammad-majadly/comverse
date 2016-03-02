@@ -22,10 +22,12 @@ body
 }
 
 
+#mobile-menu {
+		display: none;
+	}
 #mobile-menu-icon 
 {
 		cursor: pointer;
-		display: none;
 		background: url(Comverse-ref/source/img/hamburger-icon.png) no-repeat center,rgb(218, 218, 218);
 		display: inline-block;
 		width: 28px;
@@ -35,6 +37,7 @@ body
 		border: 1px solid grey;
 		float: left;
 		margin-left: 5px;
+		margin-top: -35px;
 		position: relative; 
 }
 
@@ -42,15 +45,21 @@ body
 {
 		display: block;
 		list-style-type: none;
-		margin: 0;
 		padding: 0;
+		margin-bottom: 10px;
+		background-color: white;
+		position: absolute;
+		width: 100%;
 }
 
-
+.mobile-nav-item > a
+{
+	color:black;
+}
 .mobile-nav-item 
 {
-		padding: 15px;
-		border-bottom: 2px solid grey;
+		padding: 10px;
+		border-bottom: 1px solid grey;
 }
 
 .mobile-nav-item:last-child
