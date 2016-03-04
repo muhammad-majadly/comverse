@@ -136,7 +136,8 @@ body
 .mobile-logo
 {
 	display: block;
-	margin-right: 10%
+	
+
 }
 .block-1
 {
@@ -247,7 +248,7 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 }
 .smart-list
 {
-	margin-left: -22px;
+	margin-left: 0px;
     min-width: 436px;
     margin-bottom: 8px;
 }
@@ -465,5 +466,31 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
 	color:black;
 	margin-left: 15%;
 }
+
+}
+
+
+@media (max-width: 352px){
+
+.smart-list
+{
+	margin-left: -15px;
+ 
+}
+
+.img5>div {
+	margin-left: 11px;
+}
+
+.img5:hover div{
+	margin-left: 11px;
+	}
+
+.img2>div {
+	margin-left: 15px;
+}
+.img2:hover div{
+	margin-left: 15px;
+	}
 
 }
