@@ -50,13 +50,13 @@ ul
 
 .select-language{
 	   
-    margin-top: -74px;
-    margin-left: 755px;
+    margin-top: -77px;
+    margin-left: 709px;
     position: absolute;
 }
 .Customer{
-	margin-top: -74px;
-    margin-left: 810px;
+	margin-top: -77px;
+    margin-left: 770px;
     position: absolute;
 }
 .search
@@ -103,11 +103,14 @@ h4{
 
 .wrapper-in
 {
-	width: 940px;
+	width: 950px;
 	margin: 0 auto;
 	padding: 0 ;
 }
 
+.carousel-nav{
+	display: none;
+}
 .block-1
 {
 	background:url(Comverse-ref/source/img/slide-bg-complexity.jpg) no-repeat center center fixed ; 
@@ -143,6 +146,9 @@ h4{
 	cursor: pointer;
 
 }
+.search-form {
+		display: none;
+	}
 
 .list-box{
 	margin-top: 10px; 
@@ -150,6 +156,7 @@ h4{
 
 .box:hover{
 	cursor: pointer;
+	background: linear-gradient(to bottom, #2e94c8 , #1188c4);
 	}
 .box {
  	display: inline-block;
@@ -419,8 +426,13 @@ h4{
     width: 237px;
     height: 99px;
     padding: 11px 15px;
+    margin-bottom: 14px;
 }
+.block-3--content:hover{
+	background: rgba(221, 211, 203, 1);
+	cursor: pointer;
 
+}
 .date {
 	float: left;
 	width: 70px;
@@ -430,11 +442,7 @@ h4{
 	margin-right: 10px;
 	box-shadow: 0 1px 4px 0 grey;
 }
-.block-3--content:hover{
-	background: rgba(221, 211, 203, 1);
-	cursor: pointer;
 
-}
 
 .day {
 	text-align: center;
@@ -482,6 +490,7 @@ h4{
  	 float:left;
 	 width:20px;
 	 height:20px;
+	 margin-top: -2px;
 
  }
 
