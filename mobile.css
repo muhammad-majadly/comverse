@@ -238,6 +238,9 @@ background: url(Comverse-ref/source/img/weDoBG.png) repeat rgba(221, 224, 226, 0
   background-color: #e5e5e5;
 
 }
+.carousel-nav{
+	display: block;
+}
 .carousel-nav li:hover {
 
 background-color: #3399CC;
