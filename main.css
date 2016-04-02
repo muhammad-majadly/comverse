@@ -17,6 +17,9 @@ body {
 	height: 30px;
 
 }
+.hidden{
+	display: none;
+}
 .mobile-menu-items 
 {
 	display: none;
