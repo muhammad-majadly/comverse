@@ -99,9 +99,9 @@ body
 		display: inline-block;
 		position: absolute;
 		background: white;
-		margin: 0 0 0 -85px;
+		margin: 0 0 0 -12%;
 		height: 20px;
-		width: 10px;
+		width: 20px;
 		text-align: center;
 }
 
@@ -109,6 +109,7 @@ body
 .search-form 
 {
 		display: none;
+
 }
 
 .search 
@@ -118,13 +119,7 @@ body
 }
 
 
-.mobile-search:focus + .nav-search 
-{
-		display: block;
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-}
+
 
 .wrapper-in
 {
