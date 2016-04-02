@@ -33,12 +33,14 @@
 
 				
 					<li class="header--li nav"><form id="nav-search" method="get" action="http://www.google.com">
+								<label for="search" class="hidden">search</label>
 						        <input type="text" class="search" alt="text" size="15" maxlength="120">
-						        <label for="search" class="hidden">search</label>
+						        
 					</form>
 					</li>
 					
 			    </ul>
+			    <label for="select2" class="hidden">Test select:</label>
 			    <select name="language" class="select-language" value="select language">
 					 <option value="eng">ENG</option>
 	                 <option value="heb">HEB</option>
@@ -518,7 +520,8 @@
 						</li>
 						<li class="block5-list-item">
 							<a href="index.html">CHANGE LANGUAGE : </a>
-							<select class="footer-language" name="">
+							<label for="select2" class="hidden">Test select:</label>
+							<select class="footer-language" name="selectLang">
 								<option value="English">English</option>
 								<option value="Hebrew">Hebrew</option>
 								<option value="Arabic">Arabic</option>
